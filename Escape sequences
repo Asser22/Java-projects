@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+    
+        //if I want to print c:\Windows\...
+        String message0 = "c:\\Windows\\...";//Two \\ will print \
+        System.out.println(message0);
+        
+        String message1 = "c:\n\\Windows\\...";//Back slash n will print new line
+        System.out.println(message1);
+        
+        String message2 = "c:\t\\Windows\\...";//Back slash t will do shift
+        System.out.println(message2);
+        
+        String message3 = "Hello \"Asser\"";//To print quotation mark you have to add \""
+        System.out.println(message3);
+        
+        
+    }
+}
