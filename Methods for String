@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+        String message = "Hello World" + "!!";
+        System.out.println("What is the secret message: "+message); 
+        
+        System.out.println("Does the message ends with !!: "+message.endsWith("!!"));
+        System.out.println("Does the message starts with !: "+message.startsWith("!"));
+        
+        System.out.println("what is the length of the message: "+message.length());
+        
+        System.out.println("what is the index of letter H in the message: "+message.indexOf("H"));
+        System.out.println("what is the index of letter d in the message: "+message.indexOf("d"));
+        System.out.println("what is the index of letter D in the message: "+message.indexOf("D"));//if the output is -1 this means NOT Found!
+        
+        //Note: replace method doesn't modify our original string it returns a new string as in Java Strings are immutable 
+        System.out.println("Replace any ! in the message with *: "+message.replace("!", "*"));//Here ! & * are arguments
+        
+        System.out.println("What is the lower case of the message: "+message.toLowerCase());
+        System.out.println("What is the upper case of the message: "+message.toUpperCase());
+        
+        message = "     Hello World" + "!!";
+        System.out.println("What is the upper case of the message: "+message.trim());
+        
+    }
+}
