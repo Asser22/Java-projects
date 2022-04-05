@@ -1,0 +1,23 @@
+public class MyClass {
+    public static void main(String args[]) {
+        
+      int result0 = Math.round(1.1F);
+      System.out.println(result0);
+      
+      int result1 = (int)Math.ceil(1.1F);
+      System.out.println(result1);
+      
+      int result2 = (int)Math.floor(1.1F);
+      System.out.println(result2);
+      
+      int result3 = Math.max(10,15);
+      System.out.println(result3);
+      
+      int result4 = Math.min(10,15);
+      System.out.println(result4);
+      
+      //int result5 = (int) Math.round(Math.random()*100);
+      int result5 = (int)(Math.random()*100);
+      System.out.println(result5);
+    }
+}
