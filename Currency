@@ -1,0 +1,15 @@
+import java.text.NumberFormat;
+public class Currencies{
+    public static void main(String args[]){
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String result0 = currency.format(123456.892);
+        System.out.println(result0);
+        
+        
+        String result1 = NumberFormat.getPercentInstance().format(0.1);
+        //OR
+        //NumberFormat percentage = NumberFormat.getPercentInstance();
+        //String result1 = percentage.format(0.1);
+        System.out.println(result1);
+    }
+}
