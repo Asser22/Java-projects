@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String arg[]){
+        Scanner scan = new Scanner(System.in);
+        String input = "";
+        
+        do{
+            System.out.println("Input: ");
+            input = scan.nextLine();
+            System.out.println(input);
+        }while (!input.equals("quit"));
+    }
+}
