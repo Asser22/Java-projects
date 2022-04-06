@@ -1,0 +1,16 @@
+import java.util.Stack;
+
+public class Main {
+    public static void main(String [] args){
+        Stack <String> friendsList = new Stack<String>();
+        
+        friendsList.push("Asser");
+        friendsList.push("Moustafa");
+        friendsList.push("Wu");
+        
+        //You do not need to specify anything to pop as it will always remove element on top
+        friendsList.pop();
+        
+        System.out.println(friendsList);
+    }
+}
