@@ -1,0 +1,16 @@
+import java.util.Stack;
+
+public class MyClass {
+    public static void main(String args[]) {
+      Stack<String> friendsList = new Stack<String>();
+      
+      String[] names = {"Al", "Bob", "Carrol"};
+      
+      System.out.println("Pushing the name onto the stack");
+      for(int i=0; i<names.length; i++)
+            friendsList.push(names[i]);
+      
+      for(int i=0; i<names.length; i++)
+         System.out.println(friendsList.pop());
+    }
+}
